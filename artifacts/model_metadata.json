@@ -1,0 +1,24 @@
+{
+    "best_model": "XGBoost",
+    "feature_columns": [
+        "product_code",
+        "lag_1",
+        "lag_2",
+        "lag_7",
+        "lag_14",
+        "lag_28",
+        "rolling_mean_7",
+        "rolling_mean_14",
+        "rolling_mean_28",
+        "day_of_week",
+        "day_of_month",
+        "month",
+        "quarter",
+        "day_of_year"
+    ],
+    "date_column": "DateTime",
+    "product_column": "DrugName",
+    "quantity_column": "Quantity",
+    "last_data_date": "2025-12-31",
+    "selection_metric": "RMSE"
+}
